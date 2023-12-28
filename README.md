@@ -1,17 +1,6 @@
 ![Alt Text](Project-Image.png)
 
 ---
-# Project: Server Deployment on DigitalOcean
-
-## Project Overview
-
-This project focuses on setting up and configuring a server on DigitalOcean, deploying a Java Gradle application, and adhering to security best practices.
-
-### Technologies Used
-- DigitalOcean
-- Linux (Ubuntu)
-- Java
-- Gradle
 
 ### Summary of Steps
 
