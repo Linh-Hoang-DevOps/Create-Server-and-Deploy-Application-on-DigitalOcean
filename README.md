@@ -36,7 +36,7 @@
 7. **Deploy and Run Java Gradle Application**
    - Copy the Java Gradle application JAR file from the local machine to the Droplet:
      ```bash
-     scp build/libs/java-react-example.jar admin@<ip_address>:/root
+     scp build/libs/java-react-example.jar root@<ip_address>:/root
      ```
    - Execute the Java application on the Droplet:
      ```bash
