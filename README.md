@@ -36,16 +36,16 @@
 7. **Deploy and Run Java Gradle Application**
    - Copy the Java Gradle application JAR file from the local machine to the Droplet:
      ```bash
-     scp build/libs/java-react-example.jar admin@<ip_address>:/home/admin
+     scp build/libs/java-react-example.jar admin@<ip_address>:/root
      ```
    - Execute the Java application on the Droplet:
      ```bash
-     java -jar /home/admin/java-react-example.jar
+     java -jar java-react-example.jar
      ```
 
  ***Security Best Practices**
    - Create a new "admin" user on the remote server.
-   - For each application (e.g., Nexus, Jenkins, my-app), create dedicated users using the "admin" user.
+   - For each application (e.g., Nexus, Jenkins), create dedicated users using the "admin" user.
    - Assign minimal permissions necessary for each application to run.
    - Avoid working with the root user for day-to-day operations.
 
