@@ -1,6 +1,6 @@
-![Alt Text](DigitalOcean Project.png)
+![Alt Text](DigitalOceanProject.png)
 
------
+---
 # Project: Server Deployment on DigitalOcean
 
 ## Project Overview
